@@ -1,0 +1,34 @@
+﻿<Window x:Class="dotNet5780_03_1037_5201.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dotNet5780_03_1037_5201"
+        mc:Ignorable="d"
+        Title="מאגר צימרים" Icon= "https://storage.hidabroot.org/articles_new/128082_tumb_750Xauto.jpg" Height="640" Width="800">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="200*"/>
+        </Grid.RowDefinitions>
+        <Grid Name="UpGrid" HorizontalAlignment="Stretch" Height="auto"
+            Grid.Row="0"
+            VerticalAlignment="Stretch" Width="auto">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions >
+            <ComboBox Name="cbHostList"
+HorizontalAlignment= "Stretch"
+VerticalAlignment="Stretch"
+Grid.Column="0" SelectionChanged="cbHostList_SelectionChanged" FontFamily="Consolas" FontSize="18"/>
+            <TextBox Name ="tbHostName"
+HorizontalAlignment= "Stretch"
+VerticalAlignment="Stretch"
+Grid.Column="1"
+Text="{Binding Path=HostName}" SelectionOpacity="4" FontFamily="Colonna MT" FontSize="22" FontWeight="Bold"/>
+        </Grid>
+    </Grid>
+</Window>
