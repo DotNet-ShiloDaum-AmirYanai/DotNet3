@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\אמיר\\source\\repos\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201.csproj": {}
+    "C:\\Users\\shilo\\Documents\\GitHub\\DotNet3\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201.csproj": {}
   },
   "projects": {
-    "C:\\Users\\אמיר\\source\\repos\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201.csproj": {
+    "C:\\Users\\shilo\\Documents\\GitHub\\DotNet3\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\אמיר\\source\\repos\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201.csproj",
+        "projectUniqueName": "C:\\Users\\shilo\\Documents\\GitHub\\DotNet3\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201.csproj",
         "projectName": "dotNet5780_03_1037_5201",
-        "projectPath": "C:\\Users\\אמיר\\source\\repos\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201.csproj",
-        "packagesPath": "C:\\Users\\אמיר\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\אמיר\\source\\repos\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\obj\\",
+        "projectPath": "C:\\Users\\shilo\\Documents\\GitHub\\DotNet3\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201.csproj",
+        "packagesPath": "C:\\Users\\shilo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shilo\\Documents\\GitHub\\DotNet3\\dotNet5780_03_1037_5201\\dotNet5780_03_1037_5201\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\אמיר\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

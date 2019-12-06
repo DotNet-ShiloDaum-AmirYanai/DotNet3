@@ -1,0 +1,8 @@
+
+*.ide
+*.pdb
+*.dll
+*.lref
+*.baml
+*.cache
+*.json

@@ -20,6 +20,7 @@ namespace dotNet5780_03_1037_5201
     /// </summary>
     public partial class MainWindow : Window
     {
+        //create list with 3 hosts
         List<Host> hostsList = new List<Host>()
             {
 
@@ -117,25 +118,37 @@ namespace dotNet5780_03_1037_5201
                    }
                 }
             };
+        //current host
         private Host currentHost;
+        //ctor- set values and initialize component
         public MainWindow()
         {
-           
             InitializeComponent();
             cbHostList.ItemsSource = hostsList;
             cbHostList.DisplayMemberPath = "HostName";
             cbHostList.SelectedIndex = 0;
         }
 
+        /// <summary>
+        /// change the current host
+        /// </summary>
+        /// <param name="sender">arg from the main window</param>
+        /// <param name="e">arg from the main window</param>
         private void cbHostList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             InitializeHost(cbHostList.SelectedIndex);
         }
+
+        /// <summary>
+        /// initialize a host
+        /// </summary>
+        /// <param name="index">index of host</param>
         private void InitializeHost(int index)
         {
             MainGrid.Children.RemoveRange(1, 3);
             currentHost = hostsList[index];
             UpGrid.DataContext = currentHost;
+            //add new hosting unit control window
             for (int i = 0; i < currentHost.Units.Count; i++)
             {
                 HostingUnitUserControl a = new HostingUnitUserControl(currentHost.Units[i]);

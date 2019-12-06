@@ -20,7 +20,7 @@ Text="{Binding Path=Rooms}" TextWrapping="Wrap" VerticalAlignment="Top" Width="6
         <Label Content="מספר חדרים" HorizontalAlignment="Left" Margin="133,87,0,0" VerticalAlignment="Top" FontFamily="Guttman-Aram"/>
         <Button Name ="btOrder"
 Content="הזמן"
-Grid.Column="1" HorizontalAlignment="Center" Margin="0,154,0,0" VerticalAlignment="Top" Height="26" Width="52" FontSize="11" Click="btOrder_Click"/>
+Grid.Column="1" HorizontalAlignment="Center" Margin="0,153,0,0" VerticalAlignment="Top" Height="26" Width="52" FontSize="11" Click="btOrder_Click"/>
         <CheckBox Name ="IsSwimigPool"
 Content="בריכה"
 IsChecked=
